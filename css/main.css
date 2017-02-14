@@ -1,0 +1,56 @@
+#app table.grid {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+#app table.grid td.cell {
+	border: 1px solid #aaaaaa;
+	width: 12px;
+	height: 12px;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+#app table.grid td.cell.white {
+	background-color: #ffffff;
+}
+
+#app table.grid td.cell.black {
+	background-color: #aaaaaa;
+}
+
+#app img#insect {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#app img#insect.up {
+	-ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+#app img#insect.down {
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+#app img#insect.right {
+	-ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+#app img#insect.left {
+	-ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
